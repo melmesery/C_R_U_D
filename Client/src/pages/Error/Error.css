@@ -1,0 +1,37 @@
+.error-page {
+  min-height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+
+.error-p {
+  font-size: 35px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 20px !important;
+  opacity: 0.7;
+}
+
+.error-p span {
+  color: red;
+  font-size: 95px;
+}
+
+.error-link {
+  display: block;
+  width: 120px;
+  border: rgba(255, 255, 255, 0.107) solid 2px;
+  border-radius: 20px;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #fff;
+  margin: 0 auto !important;
+}
+
+.error-link:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.107);
+}

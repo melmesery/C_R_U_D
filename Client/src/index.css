@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+
+* {
+  font-family: "Bellefair", serif;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../src/assets/images/signup.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

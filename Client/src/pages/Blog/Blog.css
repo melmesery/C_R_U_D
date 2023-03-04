@@ -1,0 +1,96 @@
+.home {
+  display: grid;
+  justify-content: center;
+  color: #fff;
+  letter-spacing: 1.5px;
+  padding: 20px 0;
+  margin-top: 50px;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: auto;
+  font-size: 20px;
+  width: 1100px;
+}
+
+.styled-table thead tr {
+  background: linear-gradient(to right, #00e1a4, #00aee9) !important;
+  color: #fff;
+  text-align: left;
+  border-radius: 25px !important;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid rgba(84, 176, 164, 0.2);
+  font-size: 18px;
+}
+
+.styled-table tbody tr {
+  background: rgba(255, 255, 255, 0.05) !important;
+}
+
+.btn {
+  border: none !important;
+  color: #000 !important;
+  padding: 0 !important;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  outline: none !important;
+  border-radius: 15px !important;
+  width: 65px !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  font-weight: 600 !important;
+}
+
+.btn-edit {
+  color: yellowgreen !important;
+}
+
+.btn-delete {
+  color: red !important;
+}
+
+.btn-view {
+  color: #fff !important;
+}
+
+.btn-product {
+  display: block !important;
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  margin-bottom: 10px;
+  color: #fff !important;
+  border-radius: 0 !important;
+  width: 110px !important;
+  background: linear-gradient(to right, #00e1a4, #00aee9) !important;
+  letter-spacing: 2px;
+  padding: 0 !important;
+}
+
+.btn-product:hover {
+  opacity: 0.8;
+}
+
+.btn-product-link {
+  text-decoration: none;
+  color: #000 !important;
+}
+
+.btn-product-link:hover {
+  color: #000;
+}
+
+.data {
+  font-size: 15px;
+  font-weight: 600;
+}
